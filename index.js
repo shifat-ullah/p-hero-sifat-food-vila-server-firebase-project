@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5500;
-const chefsData = require('./data/kode-chefs.json');
+const chefsData = require('./data/');
 const recipe = require('./data/recipe.json')
 const cors = require('cors')
 
